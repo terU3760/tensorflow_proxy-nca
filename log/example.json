@@ -1,0 +1,36 @@
+{
+    "dataset": {
+        "cars": {
+            "classes": {
+                "eval": "range(0, 98)",
+                "train": "range(0, 98)"
+            },
+            "root": "/home/ngaimanchow/eclipse-workspace/tensorflow_proxy-nca_debug/data/cars_data"
+        }
+    },
+    "gpu_id": 0,
+    "name": "example",
+    "transform_parameters": {
+        "intensity_scale": [
+            [
+                0,
+                1
+            ],
+            [
+                0,
+                255
+            ]
+        ],
+        "mean": [
+            104,
+            117,
+            128
+        ],
+        "rgb_to_bgr": true,
+        "std": [
+            1,
+            1,
+            1
+        ]
+    }
+}
