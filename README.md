@@ -33,6 +33,8 @@ Download [cars_data.tar.xz](https://drive.google.com/file/d/1tdQK9NC2g_YxGLEiew7
 tar -xf cars_data.tar.xz
 ```
 
+Edit file config_cars_tensorflow.json, let "root" point at your "cars_data" directory.
+
 To train directly, in the cloned project root directory, type:
 
 ```
