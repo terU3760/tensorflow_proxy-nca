@@ -12,7 +12,7 @@ The anaconda environment to run is provided as the environment.yaml file.
 A custom version of Keras is included which is necessary for data augmentation.
 
 
-#Train
+# Train
 
 Do the following:
 
@@ -48,6 +48,6 @@ python train_data_augmentation.py
 Since it is run under Keras framework, no need to mind the validation loss, a custom evaluation process is used.
 
 
-#Results
+# Results
 
 Since using a different network VGG19 instead of [BN-Inception](http://arxiv.org/abs/1502.03167), the result is not listed here. But the base network could be very easily change back into it.
