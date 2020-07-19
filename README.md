@@ -11,9 +11,29 @@ The anaconda environment to run is provided as the environment.yaml file.
 
 A custom version of Keras is included which is necessary for data augmentation.
 
+
 #Train
 
-To train directly, type:
+Do the following:
+
+```
+git clone https://github.com/terU3760/tensorflow_proxy-nca.git
+```
+
+In the cloned project root directory:
+
+```
+mkdir data
+cd data
+```
+
+Download [cars_data.tar.xz](https://drive.google.com/file/d/1tdQK9NC2g_YxGLEiew7kkoLZazoChdmP/view?usp=sharing) into this directory, and then type
+
+```
+tar -xf cars_data.tar.xz
+```
+
+To train directly, in the cloned project root directory, type:
 
 ```
 python train.py
@@ -26,6 +46,7 @@ python train_data_augmentation.py
 ```
 
 Since it is run under Keras framework, no need to mind the validation loss, a custom evaluation process is used.
+
 
 #Results
 
