@@ -1,0 +1,19 @@
+{
+    "name": "str('example')",
+    "gpu_id": "int(0)",
+    "dataset": {
+        "cars": {
+            "classes": {
+                "train": "range(0, 98)",
+                "eval": "range(0, 98)"
+            },
+            "root": "str('/root/tensorflow_proxy-nca_debug/data/cars_data')"
+        }
+    },
+    "transform_parameters": {
+        "rgb_to_bgr": "True", 
+        "intensity_scale": "[[0, 1], [0, 255]]",
+        "mean": "[104, 117, 128]",
+        "std": "[1, 1, 1]"
+    }
+}
