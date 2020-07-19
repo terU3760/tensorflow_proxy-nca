@@ -1,5 +1,5 @@
 # About
-A TensorFlow with Keras reimplementation of the paper [*No Fuss Distance Metric Learning using Proxies*](https://arxiv.org/pdf/1703.07464.pdf) as introduced by Google Research.
+Yet another TensorFlow with Keras reimplementation of the paper [*No Fuss Distance Metric Learning using Proxies*](https://arxiv.org/pdf/1703.07464.pdf) as introduced by Google Research.
 
 Take advantage of the a little recent network VGG19 with somewhat naive optimizer SGD. These two parts could be easily changed to any other compatible components.
 
