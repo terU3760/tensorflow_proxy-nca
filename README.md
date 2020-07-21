@@ -27,7 +27,7 @@ mkdir data
 cd data
 ```
 
-Download [cars_data.tar.xz](https://drive.google.com/file/d/1tdQK9NC2g_YxGLEiew7kkoLZazoChdmP/view?usp=sharing) into this directory, and then type
+Download [cars_data.tar.xz](https://drive.google.com/file/d/1tdQK9NC2g_YxGLEiew7kkoLZazoChdmP/view?usp=sharing) (slightly modified version of Stanford University [CARS196 dataset](https://ai.stanford.edu/~jkrause/cars/car_dataset.html)) into this directory, and then type
 
 ```
 tar -xf cars_data.tar.xz
@@ -35,7 +35,7 @@ tar -xf cars_data.tar.xz
 
 Edit file config_cars_tensorflow.json, let "root" point to your "cars_data" directory.
 
-To train directly, in the cloned project root directory, type:
+To train directly, in the root directory if the cloned project, type:
 
 ```
 python train.py
@@ -47,9 +47,9 @@ To train with data augmentation, type:
 python train_data_augmentation.py
 ```
 
-Since it is run under Keras framework, no need to mind the validation loss, a custom evaluation process is used.
+Since it is run under Keras framework, no need to mind the validation loss, a custom evaluation process is adopted.
 
 
 # Results
 
-Since using a different network VGG19 instead of [BN-Inception](http://arxiv.org/abs/1502.03167), the result is not listed here. But the base network could be very easily change back into it.
+Since using a different network VGG19 instead of [BN-Inception](http://arxiv.org/abs/1502.03167), the result is not listed here. But the base network could be very easily converted back into it.
